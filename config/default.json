@@ -1,0 +1,19 @@
+{
+  "host": "localhost",
+  "port": 3030,
+  "mongodb": "mongodb://localhost:27017/htkr",
+  "public": "../public/",
+  "auth": {
+    "token": {
+      "secret": "mkuI6mTdNC/voW6O3ha0SjVAGnsac3XjaYDs/6OGfUUGHy9tkUTWahgi5ulCLiKPllpMA6UisWx1BwZvaXDE8w=="
+    },
+    "local": {},
+    "github": {
+      "clientID": "your github client id",
+      "clientSecret": "your github client secret",
+      "permissions": {
+        "scope": []
+      }
+    }
+  }
+}
